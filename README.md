@@ -1,5 +1,10 @@
 ESP-IDF A2DP-SINK demo
 ======================
+---
+
+If using the ESP-WROVER-KIT v4.1, be sure to set the appropriate flash size. Run `idf.py menuconfig`, select **Serial flasher config** and set the **Flash size** value to **4 MB**.
+
+---
 
 Demo of A2DP audio sink role
 
